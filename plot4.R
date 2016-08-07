@@ -1,3 +1,13 @@
+## The code placed here into comments downloads the household_power_consumption.zip 
+##file from the link provided and unzips the file into the text file household_power_consumption.txt
+## it will placed into comments for the plot2.R, plot3.R and plot4.R codes
+#
+# fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata/data/household_power_consumption.zip"
+# temp <- tempfile()
+# download.file(fileUrl,temp)
+# unzip(temp,"household_power_consumption.txt")
+# unlink(temp)
+
 ## read data from the txt file household_power_consumption.txt
 ## the data frame is named: df
 df <- read.table(
